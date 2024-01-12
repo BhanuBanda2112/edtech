@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JeeFocus</title>
+    <link rel="stylesheet" href="style.css">
+    <!--for profile kind of buttons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        class="href">
+</head>
+
+
+<header class="header">
+    <section class="nav">
+        <a href="home.html" class="logo">JeeFocus</a>
+        <form action="" method="post" class="search">
+            <input type="text" name="search" placeholder="   search for courses...."
+                style="width:30rem;height: 30px;border-radius: .5rem;gap: 2rem;">
+            <button type="submit" class="fas fa-search" name="search_box"
+                style="background-color: #eee;gap: 0;padding-left: 0%;">
+            </button>
+        </form>
+        <div class="icons">
+            <div class="fas fa-bars" id="bars" style="font-size: 1.5rem;margin-left: 1rem;"></div>
+            <div class="fa-solid fa-user" id="user" style="font-size: 1.5rem;margin-left: 1rem;"></div>
+            <div class="fa-solid fa-sun" id="toggle" style="font-size: 1.5rem; margin-left: .6rem;"></div>
+
+
+        </div>
+
+
+    </section>
+
+</header>
+
+<div id="sidenav" class="side" style="height: 100%;width: 25%; align-items: center; ">
+    <nav class="sidebar" style="align-items: center;">
+        <div> <a href="home.html"><i class="fas fa-home"></i><span> home</span></a></div>
+
+        <div> <a href="courses.html"><i class="fas fa-book"></i><span> courses</span></a></div>
+        <div> <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span> teachers</span></a></div>
+        <div> <a href="contact.html"><i class="fas fa-headset"></i><span> contact us</span></a></div>
+    </nav>
+
+
+</div>
+</div>
+
+<span class="profile" id="profile">
+    <img src="pro1.jpeg" class="image" alt="">
+    <h3 class="name">Bhanu Banda</h3>
+    <p class="role">student</p>
+    <div class="pro" style="padding-top:10px; "><a href="profile.html" class="btn"
+            style="background-color: gray;color: white; padding: 1.5%;border-radius: .4rem;padding-left: 5%;padding-right: 5%;">view
+            profile</a></div>
+    <div class="flex-btn">
+        <div class="login"> <a href="login.html" class="option-btn">login </a></div>
+        <div class="register"> <a href="register.html" class="option-btn">register</a></div>
+    </div>
+</span>
+
+
+
+    
+    <section class="contact">
+
+        <div class="row">
+           <form action="" method="post">
+              <h3>book a call for doubt</h3>
+              <input type="text" placeholder="enter your name" name="name" required maxlength="50" class="box">
+              <input type="email" placeholder="enter your email" name="email" required maxlength="50" class="box">
+              <input  placeholder="enter your number" name="number" required maxlength="50" class="box">
+              <select style="width: 100%;height: 60px;" >
+                <option value="">Select your subject</option>
+                <option value="a">English</option>
+                <option value="b">Maths</option>
+                <option value="c">physics </option>
+                <option value="d">chemistry</option>
+                <option value="e">biology</option>
+                <option value="f">social</option>
+              </select>
+              
+              <textarea name="msg" class="box" placeholder="enter your doubt" required maxlength="1000" cols="30" rows="10"></textarea>
+           
+              <input type="submit" value="post doubt" class="inline-btn" name="submit">
+              
+            </form>
+
+        </div>
+     
+        <div class="box-container" style="display: grid;grid-template-columns: 1fr 1fr 1fr;padding-bottom: 20px;" >
+     
+           <div class="box"  >
+            
+            
+              <i class="fas fa-phone"></i>
+              <h3>phone number</h3>
+              <a href="0">1234567890</a>
+              
+           </div>
+           
+           <div class="box">
+              <i class="fas fa-envelope"></i>
+              <h3>email address</h3>
+              <a href="Bhanu Banda@gmail.com">BhanuBanda@gmail.com</a>
+              
+           </div>
+     
+           <div class="box">
+              <i class="fas fa-map-marker-alt"></i>
+              <h3>office address</h3>
+              <a href="#">Trichy,Aqua-a,room no-116</a>
+           </div>
+     
+        </div>
+     
+     </section>
+     
+<footer class="foot" style="padding-bottom: 0;text-align: center;">
+    <h3>contact team kanyaraasi for more info</h3>
+
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+
+</html>
